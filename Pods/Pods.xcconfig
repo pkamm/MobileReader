@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFImageDownloader" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/DLAlertView" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/Kiwi" $(SDKROOT)/usr/include/libz
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/GoogleAnalytics-iOS-SDK"
+OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/AFImageDownloader" "-isystem${PODS_ROOT}/Headers/AFNetworking" "-isystem${PODS_ROOT}/Headers/DLAlertView" "-isystem${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "-isystem${PODS_ROOT}/Headers/Kiwi"
+OTHER_LDFLAGS = -ObjC -lGoogleAnalyticsServices -lz -framework CFNetwork -framework CoreData -framework CoreGraphics -framework MobileCoreServices -framework Security -weak_framework SenTestingKit -framework SystemConfiguration -weak_framework AdSupport
+PODS_ROOT = ${SRCROOT}/Pods

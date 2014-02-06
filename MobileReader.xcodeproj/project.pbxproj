@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FA041824DD94D64B27DC517 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB919BC17B7C45C38EEAA35E /* libPods.a */; };
+		882589131899938900CF2553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882589121899938900CF2553 /* Foundation.framework */; };
+		882589151899938900CF2553 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882589141899938900CF2553 /* CoreGraphics.framework */; };
+		882589171899938900CF2553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882589161899938900CF2553 /* UIKit.framework */; };
+		882589191899938900CF2553 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882589181899938900CF2553 /* CoreData.framework */; };
+		8825891F1899938900CF2553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8825891D1899938900CF2553 /* InfoPlist.strings */; };
+		882589211899938900CF2553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882589201899938900CF2553 /* main.m */; };
+		8825892E1899938900CF2553 /* MobileReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8825892C1899938900CF2553 /* MobileReader.xcdatamodeld */; };
+		882589361899938900CF2553 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882589351899938900CF2553 /* Images.xcassets */; };
+		8825895F189993E000CF2553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88258954189993E000CF2553 /* AppDelegate.m */; };
+		88258961189993E000CF2553 /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88258956189993E000CF2553 /* ArticleTableViewCell.m */; };
+		88258963189993E000CF2553 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88258958189993E000CF2553 /* DetailViewController.m */; };
+		88258965189993E000CF2553 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88258959189993E000CF2553 /* Main_iPad.storyboard */; };
+		88258967189993E000CF2553 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8825895A189993E000CF2553 /* Main_iPhone.storyboard */; };
+		88258969189993E000CF2553 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8825895C189993E000CF2553 /* MasterViewController.m */; };
+		8825896B189993E000CF2553 /* UpdateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8825895E189993E000CF2553 /* UpdateUtilities.m */; };
+		8825896F189994B400CF2553 /* logo2-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 8825896D189994B400CF2553 /* logo2-new.png */; };
+		88258971189994B400CF2553 /* placeholder-for-no-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8825896E189994B400CF2553 /* placeholder-for-no-image.png */; };
+		88258974189994BA00CF2553 /* defaultPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88258973189994BA00CF2553 /* defaultPrefs.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8825890F1899938900CF2553 /* MobileReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882589121899938900CF2553 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		882589141899938900CF2553 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		882589161899938900CF2553 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		882589181899938900CF2553 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8825891C1899938900CF2553 /* MobileReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileReader-Info.plist"; sourceTree = "<group>"; };
+		8825891E1899938900CF2553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882589201899938900CF2553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882589221899938900CF2553 /* MobileReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileReader-Prefix.pch"; sourceTree = "<group>"; };
+		8825892D1899938900CF2553 /* MobileReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileReader.xcdatamodel; sourceTree = "<group>"; };
+		882589351899938900CF2553 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		882589451899938900CF2553 /* MobileReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileReaderTests-Info.plist"; sourceTree = "<group>"; };
+		882589471899938900CF2553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882589491899938900CF2553 /* MobileReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileReaderTests.m; sourceTree = "<group>"; };
+		88258953189993E000CF2553 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88258954189993E000CF2553 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88258955189993E000CF2553 /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
+		88258956189993E000CF2553 /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
+		88258957189993E000CF2553 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		88258958189993E000CF2553 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		88258959189993E000CF2553 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		8825895A189993E000CF2553 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8825895B189993E000CF2553 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8825895C189993E000CF2553 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8825895D189993E000CF2553 /* UpdateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateUtilities.h; sourceTree = "<group>"; };
+		8825895E189993E000CF2553 /* UpdateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateUtilities.m; sourceTree = "<group>"; };
+		8825896D189994B400CF2553 /* logo2-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo2-new.png"; sourceTree = "<group>"; };
+		8825896E189994B400CF2553 /* placeholder-for-no-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-for-no-image.png"; sourceTree = "<group>"; };
+		88258973189994BA00CF2553 /* defaultPrefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultPrefs.plist; sourceTree = "<group>"; };
+		BB919BC17B7C45C38EEAA35E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A0BE045FE84D6396B2A993 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8825890C1899938900CF2553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882589151899938900CF2553 /* CoreGraphics.framework in Frameworks */,
+				882589191899938900CF2553 /* CoreData.framework in Frameworks */,
+				882589171899938900CF2553 /* UIKit.framework in Frameworks */,
+				882589131899938900CF2553 /* Foundation.framework in Frameworks */,
+				4FA041824DD94D64B27DC517 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882589061899938900CF2553 = {
+			isa = PBXGroup;
+			children = (
+				8825891A1899938900CF2553 /* MobileReader */,
+				882589431899938900CF2553 /* MobileReaderTests */,
+				882589111899938900CF2553 /* Frameworks */,
+				882589101899938900CF2553 /* Products */,
+				C8A0BE045FE84D6396B2A993 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		882589101899938900CF2553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8825890F1899938900CF2553 /* MobileReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882589111899938900CF2553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882589121899938900CF2553 /* Foundation.framework */,
+				882589141899938900CF2553 /* CoreGraphics.framework */,
+				882589161899938900CF2553 /* UIKit.framework */,
+				882589181899938900CF2553 /* CoreData.framework */,
+				BB919BC17B7C45C38EEAA35E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8825891A1899938900CF2553 /* MobileReader */ = {
+			isa = PBXGroup;
+			children = (
+				8825896D189994B400CF2553 /* logo2-new.png */,
+				8825896E189994B400CF2553 /* placeholder-for-no-image.png */,
+				88258953189993E000CF2553 /* AppDelegate.h */,
+				88258954189993E000CF2553 /* AppDelegate.m */,
+				88258955189993E000CF2553 /* ArticleTableViewCell.h */,
+				88258956189993E000CF2553 /* ArticleTableViewCell.m */,
+				88258957189993E000CF2553 /* DetailViewController.h */,
+				88258958189993E000CF2553 /* DetailViewController.m */,
+				88258959189993E000CF2553 /* Main_iPad.storyboard */,
+				8825895A189993E000CF2553 /* Main_iPhone.storyboard */,
+				8825895B189993E000CF2553 /* MasterViewController.h */,
+				8825895C189993E000CF2553 /* MasterViewController.m */,
+				8825895D189993E000CF2553 /* UpdateUtilities.h */,
+				8825895E189993E000CF2553 /* UpdateUtilities.m */,
+				882589351899938900CF2553 /* Images.xcassets */,
+				8825892C1899938900CF2553 /* MobileReader.xcdatamodeld */,
+				8825891B1899938900CF2553 /* Supporting Files */,
+			);
+			path = MobileReader;
+			sourceTree = "<group>";
+		};
+		8825891B1899938900CF2553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8825891C1899938900CF2553 /* MobileReader-Info.plist */,
+				8825891D1899938900CF2553 /* InfoPlist.strings */,
+				882589201899938900CF2553 /* main.m */,
+				882589221899938900CF2553 /* MobileReader-Prefix.pch */,
+				88258973189994BA00CF2553 /* defaultPrefs.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		882589431899938900CF2553 /* MobileReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				882589491899938900CF2553 /* MobileReaderTests.m */,
+				882589441899938900CF2553 /* Supporting Files */,
+			);
+			path = MobileReaderTests;
+			sourceTree = "<group>";
+		};
+		882589441899938900CF2553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882589451899938900CF2553 /* MobileReaderTests-Info.plist */,
+				882589461899938900CF2553 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8825890E1899938900CF2553 /* MobileReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8825894D1899938900CF2553 /* Build configuration list for PBXNativeTarget "MobileReader" */;
+			buildPhases = (
+				F0DFFE147CE84DF3878C12E9 /* Check Pods Manifest.lock */,
+				8825890B1899938900CF2553 /* Sources */,
+				8825890C1899938900CF2553 /* Frameworks */,
+				8825890D1899938900CF2553 /* Resources */,
+				35E9C5254C1F4A688873409C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileReader;
+			productName = MobileReader;
+			productReference = 8825890F1899938900CF2553 /* MobileReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882589071899938900CF2553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Digitas;
+				TargetAttributes = {
+					8825890E1899938900CF2553 = {
+						DevelopmentTeam = DU94H4H34G;
+					};
+				};
+			};
+			buildConfigurationList = 8825890A1899938900CF2553 /* Build configuration list for PBXProject "MobileReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882589061899938900CF2553;
+			productRefGroup = 882589101899938900CF2553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8825890E1899938900CF2553 /* MobileReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8825890D1899938900CF2553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88258967189993E000CF2553 /* Main_iPhone.storyboard in Resources */,
+				8825896F189994B400CF2553 /* logo2-new.png in Resources */,
+				88258971189994B400CF2553 /* placeholder-for-no-image.png in Resources */,
+				88258974189994BA00CF2553 /* defaultPrefs.plist in Resources */,
+				88258965189993E000CF2553 /* Main_iPad.storyboard in Resources */,
+				882589361899938900CF2553 /* Images.xcassets in Resources */,
+				8825891F1899938900CF2553 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E9C5254C1F4A688873409C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DFFE147CE84DF3878C12E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8825890B1899938900CF2553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8825896B189993E000CF2553 /* UpdateUtilities.m in Sources */,
+				88258963189993E000CF2553 /* DetailViewController.m in Sources */,
+				88258961189993E000CF2553 /* ArticleTableViewCell.m in Sources */,
+				8825892E1899938900CF2553 /* MobileReader.xcdatamodeld in Sources */,
+				882589211899938900CF2553 /* main.m in Sources */,
+				88258969189993E000CF2553 /* MasterViewController.m in Sources */,
+				8825895F189993E000CF2553 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8825891D1899938900CF2553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8825891E1899938900CF2553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		882589461899938900CF2553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882589471899938900CF2553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8825894B1899938900CF2553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8825894C1899938900CF2553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8825894E1899938900CF2553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A0BE045FE84D6396B2A993 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"${DEVELOPER_LIBRARY_DIR}/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileReader/MobileReader-Prefix.pch";
+				INFOPLIST_FILE = "MobileReader/MobileReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8825894F1899938900CF2553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A0BE045FE84D6396B2A993 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digitas, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digitas, Inc.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"${DEVELOPER_LIBRARY_DIR}/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileReader/MobileReader-Prefix.pch";
+				INFOPLIST_FILE = "MobileReader/MobileReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8825890A1899938900CF2553 /* Build configuration list for PBXProject "MobileReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8825894B1899938900CF2553 /* Debug */,
+				8825894C1899938900CF2553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8825894D1899938900CF2553 /* Build configuration list for PBXNativeTarget "MobileReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8825894E1899938900CF2553 /* Debug */,
+				8825894F1899938900CF2553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8825892C1899938900CF2553 /* MobileReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8825892D1899938900CF2553 /* MobileReader.xcdatamodel */,
+			);
+			currentVersion = 8825892D1899938900CF2553 /* MobileReader.xcdatamodel */;
+			path = MobileReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 882589071899938900CF2553 /* Project object */;
+}

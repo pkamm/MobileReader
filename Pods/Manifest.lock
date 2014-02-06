@@ -1,0 +1,39 @@
+PODS:
+  - AFImageDownloader (1.0.0):
+    - Kiwi (~> 1.1.1)
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - AFNetworking/UIKit (2.0.3):
+    - AFNetworking/NSURLConnection
+  - DLAlertView (1.0)
+  - GoogleAnalytics-iOS-SDK (3.0.3)
+  - Kiwi (1.1.1)
+
+DEPENDENCIES:
+  - AFImageDownloader (~> 1.0.0)
+  - AFNetworking (~> 2.0.1)
+  - DLAlertView (~> 1.0)
+  - GoogleAnalytics-iOS-SDK (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  AFImageDownloader: 4c385edcac3cea688c21b99d824ba6e73c190141
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  DLAlertView: d60c796e8bff9f8f013b6b601fb860d1a858b6a8
+  GoogleAnalytics-iOS-SDK: 7b0e55cfe5e70d60478a7b105f15ac71e8bc373e
+  Kiwi: ab0fa8d13b97dca05915e31df9b2d888d74ab717
+
+COCOAPODS: 0.29.0
